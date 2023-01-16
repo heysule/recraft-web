@@ -7,6 +7,8 @@ import { ProductListComponent } from './features/products/product-list/product-l
 import { HeaderComponent } from './common/components/header/header.component';
 import { MobileNavComponent } from './common/components/mobile-nav/mobile-nav.component';
 import { ProductItemComponent } from './features/products/product-list/product-item/product-item.component';
+import { NotFoundComponent } from './common/components/not-found/not-found.component';
+import { FooterComponent } from './common/components/footer/footer.component';
 
 @NgModule({
   declarations: [
@@ -14,7 +16,9 @@ import { ProductItemComponent } from './features/products/product-list/product-i
     ProductListComponent,
     HeaderComponent,
     MobileNavComponent,
-    ProductItemComponent
+    ProductItemComponent,
+    NotFoundComponent,
+    FooterComponent
   ],
   imports: [
     BrowserModule,
