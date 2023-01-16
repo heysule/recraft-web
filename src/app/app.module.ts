@@ -12,6 +12,7 @@ import { FooterComponent } from './common/components/footer/footer.component';
 import { SignInModalComponent } from './common/components/sign-in-modal/sign-in-modal.component';
 import { CartComponent } from './features/cart/cart.component';
 import { CheckoutComponent } from './features/checkout/checkout.component';
+import { AboutComponent } from './features/about/about.component';
 
 @NgModule({
   declarations: [
@@ -24,7 +25,8 @@ import { CheckoutComponent } from './features/checkout/checkout.component';
     FooterComponent,
     SignInModalComponent,
     CartComponent,
-    CheckoutComponent
+    CheckoutComponent,
+    AboutComponent
   ],
   imports: [
     BrowserModule,
