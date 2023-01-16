@@ -18,14 +18,27 @@
             "main": "src/main.ts",
             "polyfills": "src/polyfills.ts",
             "tsConfig": "tsconfig.app.json",
-            "assets": [
-              "src/favicon.ico",
-              "src/assets"
-            ],
+            "assets": ["src/favicon.ico", "src/assets"],
             "styles": [
+              "src/assets/css/bootstrap.min.css",
+              "src/assets/css/style.css",
+              "src/assets/css/plugins/magnific-popup/magnific-popup.css",
+              "src/assets/css/plugins/nouislider/nouislider.css",
               "src/styles.css"
             ],
-            "scripts": []
+            "scripts": [
+              "src/assets/js/jquery.min.js",
+              "src/assets/js/bootstrap.bundle.min.js",
+              "src/assets/js/jquery.hoverIntent.min.js",
+              "src/assets/js/jquery.waypoints.min.js",
+              "src/assets/js/superfish.min.js",
+              "src/assets/js/owl.carousel.min.js",
+              "src/assets/js/wNumb.js",
+              "src/assets/js/bootstrap-input-spinner.js",
+              "src/assets/js/jquery.magnific-popup.min.js",
+              "src/assets/js/nouislider.min.js",
+              "src/assets/js/main.js"
+            ]
           },
           "configurations": {
             "production": {
