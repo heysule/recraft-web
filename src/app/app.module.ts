@@ -10,6 +10,7 @@ import { ProductItemComponent } from './features/products/product-list/product-i
 import { NotFoundComponent } from './common/components/not-found/not-found.component';
 import { FooterComponent } from './common/components/footer/footer.component';
 import { SignInModalComponent } from './common/components/sign-in-modal/sign-in-modal.component';
+import { CartComponent } from './features/cart/cart.component';
 
 @NgModule({
   declarations: [
@@ -20,7 +21,8 @@ import { SignInModalComponent } from './common/components/sign-in-modal/sign-in-
     ProductItemComponent,
     NotFoundComponent,
     FooterComponent,
-    SignInModalComponent
+    SignInModalComponent,
+    CartComponent
   ],
   imports: [
     BrowserModule,
